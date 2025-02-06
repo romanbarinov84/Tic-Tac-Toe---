@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.container .out {
+    width: 280px;
+    margin: 20px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+button {
+    margin: 30px;
+}
+ 
+#ttt{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#ttt>div {
+width: 100px;
+height: 100px;
+background: #33c3f0;
+cursor: pointer;
+font-size: 64px;
+display: flex;
+justify-content: center;
+}
+#ttt >div:nth-child(2n){
+    background: rgb(232, 231, 231);
+}
+#ttt >div:hover{
+    filter: brightness(1.1);
+}
